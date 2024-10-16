@@ -39,9 +39,13 @@ sudo ln -s $(which node) /usr/local/bin/node
 
 - Delete `/Users/maker/Library/Developer/Xcode/DerivedData/`
 - Delete `/ios/`
-- `npm run release:prebuild:ios`
+- `npm run prebuild:ios`
 - `xed ios`
 - Product > Clean build folder
 - Target > Capabilities > Select team
 - Product > Scheme > Edit Scheme: Choose `Release`
 - Product > Build
+
+### Potential fix
+
+See: https://github.com/nativewind/nativewind/issues/1139#issuecomment-2414985298
