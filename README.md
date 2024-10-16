@@ -7,7 +7,7 @@
 
 **Reproduction**
 - Create a new Expo project with `npx create-expo-app@latest` ("expo": "~51.0.28")
-- Add native wind as per v4 manual instructions (https://rnr-docs.vercel.app/getting-started/initial-setup/)
+- Add native wind as per v4 manual instructions (https://www.nativewind.dev/v4/getting-started/expo-router)
   - Specifies to use `nativewind@^4.0.1`
   - Add `import "../global.css"` to `/app/_layout.tsx`
 - Build ios with `npx expo prebuild --platform ios --clean --npm`
