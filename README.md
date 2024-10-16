@@ -29,7 +29,8 @@ sudo ln -s $(which node) /usr/local/bin/node
 ```
 
 **Additional context**
-- M1 Mac environment with Sonoma 14.5 (23F79)
+- M1 Mac environment with Sonoma 14.5 (23F79) 
+- XCode Version 15.4 (15F31d)
 - This hanging behaviour appears to be also present with EAS (remote and local) builds though still yet to confirm this as it was in a separate project
 - Should I be using a different version of Native Wind?
 - Would appreciate any guidance to be able to debug the issue or a workaround
